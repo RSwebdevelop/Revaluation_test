@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+ /* Header starts from here */
+ #container{
+    width:100%;
+    height: 100%;
+    display: flex;
+   
+ }
+ #container img{
+    width: 50%;
+    height: 80vh;
+    margin: 50px 140px;
+ }
+
+ #container h1 {
+    width: 100%;
+    font-size: 4em;
+    margin-left: 57%;
+    margin-top: -550px;
+} 
+
+#container span {
+    margin-left: 15%;
+} 
+
+#container p {
+    width: 100%;
+    margin: 5% 72%;
+} 
+
+#container ul{
+   margin: 0;
+   padding: 0;
+   margin: 300px -250px;
+}
+#container li{
+   margin-right: 50px;
+   list-style: none;
+   text-decoration: none;
+}
+#main{
+    width: 100%;
+    height: 75vh;
+}
+
+#container a{
+    color: whitesmoke;
+    font-weight: 400;
+}
+#container a:hover{
+    background: palegreen;
+    transition: .1s;
+    color: black;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 5px;
+    margin-left: 20%;
+    color: #fff;
+    background-image: linear-gradient(black, black);
+    font-size: 1em;
+    border-radius: 20px;
+    transition: 0.5s;  
+    text-transform: uppercase;
+}
+
+#footer{
+    width: 50%;
+    height: 15px;
+    padding-top: 10px;
+    font-size: 1em;
+    margin-top: -220px;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width:660px) and (max-width:1100px) {
+    #container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    }
+    #container h1 {
+        width: 100%;
+        font-size: 5em;
+        margin-left: 16%;
+        margin-top: -25em;
+    }
+
+    #container span {
+        width: 100%;
+        font-size: 1em;
+        margin-left: 25%;
+        margin-top: -50em;
+    }
+    
+    #main{
+        width: 100%;
+        /* height: 75vh; */
+        margin-top: 300px;
+        
+    }
+
+    #container p {
+        width: 100%;
+        font-size: 2em;
+        margin-left: 20%;
+        margin-top: 1em;
+       
+    } 
+    
+
+     footer{
+
+        margin-top:1200px;
+        margin-left: 20%;
+        left: 120px;
+     }
+}
